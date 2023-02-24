@@ -7,11 +7,21 @@ body {
   height: 100vh;
 }
 
+.calculator {
+  border: 2px solid black;
+  background-image: url(silver.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
 .btn {
+  background-color: black;
   height: 75px;
   width: 75px;
   margin: 15px;
   font-size: 40px;
+  color: white;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 .number {
@@ -63,6 +73,7 @@ body {
 }
 
 #screen {
+  background-color: lawngreen;
   width: 300px;
   height: 75px;
   border: 1px solid black;
@@ -71,6 +82,8 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .previous {
@@ -79,4 +92,12 @@ body {
 
 .current {
   font-size: 30px;
+}
+
+.creator {
+  display: flex;
+  margin-right: 5px;
+  justify-content: flex-end;
+  font-size: 15px;
+  color: aliceblue;
 }
